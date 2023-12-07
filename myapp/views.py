@@ -8,6 +8,10 @@ def index(request):
         if expense.is_valid():
             expense.save()
     
-    expense = Expense.objects.all() 
+    expenses = Expense.objects.all() 
     expense_form = ExpenseForm()
-    return render(request, 'myapp/index.html', {'expense_form': expense_form,'expenses':expenses})
+    return render(request, 'myapp/index.html',{'expense_form': expense_form,'expenses':expenses})
+
+def edit(request):
+    expense_form = ExpenseForm()
+    return render(request, 'myapp/edit.html',{'expense_form': expense_form})
