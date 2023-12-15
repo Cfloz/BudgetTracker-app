@@ -32,7 +32,6 @@ pyparsing==2.4.7
 PyQt5==5.15.6
 PyQt5-sip==12.9.1
 PySocks==1.7.1
-python-apt==2.4.0+ubuntu2
 pytz==2022.1
 PyYAML==5.4.1
 requests==2.25.1
