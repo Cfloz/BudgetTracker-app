@@ -6,3 +6,4 @@ gunicorn==21.2.0
 django-cors-headers==4.3.1
 djangorestframework==3.14.0
 pytz==2023.3.post1
+django-heroku==0.3.1
